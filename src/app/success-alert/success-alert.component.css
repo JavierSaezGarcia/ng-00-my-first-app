@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+h3{
+    padding: 10px;
+    /* color: rgb(136, 211, 24);
+    border: 1px solid  rgb(136, 211, 24); */
+    width: 20vw;
+}
+.row{
+
+    margin: auto;
+    width: 400px;
+    
+}
+.wrapper.nine {
+
+    text-align: center;
+    background-color: #09715d;
+    font-family: 'Arvo', serif;
+    width: 20vw;
+}
+.rotate span {
+    font-size: 5rem;
+    color: #f8f8f8;
+    display: inline-flex;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    0%,
+    75% {
+        transform: rotateY(360deg);
+    }
+}
+.nine span:nth-of-type(1) {
+    animation-delay: 0.2s;
+}
+.nine span:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+.nine span:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+.nine span:nth-of-type(4) {
+    animation-delay: 0.8s;
+}
+.nine span:nth-of-type(5) {
+    animation-delay: 1s;
+}
+.nine span:nth-of-type(6) {
+    animation-delay: 1.2s;
+}
