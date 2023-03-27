@@ -1,6 +1,8 @@
 
-<h3 [ngStyle]="{'background-color': getColor()}"
+<li [ngStyle]="{'background-color': getColor()}" 
     [ngClass]="{online: serverStatus === 'online'}"
-    ><span>{{ getServer() }}</span> with Id: <span>{{ serverId }}</span> is <span>{{ getServerStatus() }}</span></h3>
+    style="padding-left:0px;margin-left: -14px;"
+    class="form-group"
+    ><span>{{ getServer() }}</span> with Id: <span>{{ serverId }}</span> is <span>{{ getServerStatus() }}</span></li>
 <!-- <h3> y no se pueden escribir expresiones de varias lineas 
     y simpre devuelve un string es decir aunque envies desde tipescript un number cuando lo implementas se convierte en <span>{{ 'string!' }}</span></h3> -->
